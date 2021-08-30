@@ -1,0 +1,450 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+        .em_f_p
+        {
+                overflow: hidden;
+                text-align: center;
+                font: normal bold 18px / 18px "Open Sans Condensed", Helvetica, Arial, Verdana, sans-serif;
+                
+                color: #1f365c;
+        }
+        .j_first_section
+        {
+                display: grid;
+                grid-template-columns: repeat(2,1fr);
+        }
+
+        .left_img_section
+        {
+                display: flex;
+                flex-direction: column;
+        }
+
+        .left_img_section .img_main img
+        {
+                height: 550px;
+        }
+
+        .left_img_section h3
+        {
+                font-size: 22px;
+                color: #1f365c !important;
+                /* font: normal 18px / 19px "Open Sans Condensed", Helvetica, Arial, Verdana, sans-serif; */
+                font-family: 'oswald';
+                text-align: justify;
+        }
+
+        .left_img_section li
+        {
+                font-size: 18px;
+                color: #1f365c;
+                font-family: 'oswald';
+                text-align: justify;
+        }
+
+        .left_img_section p
+        {
+                font-size: 18px;
+                color: #1f365c !important;
+                /* font: normal 18px / 19px "Open Sans Condensed", Helvetica, Arial, Verdana, sans-serif; */
+                font-family: 'oswald';
+                text-align: justify;
+        }
+        .left_img_section .j_f_m_p
+        {
+                width: 80%;
+        }
+
+        .right_form_section 
+        {
+                display: flex;
+                flex-direction: column;
+                background: #f9f9f9;
+                height: 105%;
+        }
+        
+        .tsbox 
+        {
+                background-color: #000;
+        }
+        .step2ProcessWrap 
+        {
+                padding: 1.12rem 0 .07rem;
+                background-color: rgb(255, 87, 34);
+        }
+        .step2Process 
+        {
+                margin: 0 .18rem 0 .15rem;
+                position: relative;
+                display: flex;
+                box-sizing: border-box;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                transition: all .1s;
+        }
+        .step2Process dl 
+        {
+                position: relative;
+                z-index: 1;
+                text-align: center;
+                cursor: pointer;
+                padding-left: 18px;
+        }
+        .step2Process .step-ready dt, .step2Process .step-reached dt 
+        {
+                background-color: rgb(74, 152, 188);
+        }
+        .step2Process dt 
+        {
+                width: 28px;
+                height: 28px;
+                font-size: 16px;
+                display: inline-block;
+                border-radius: 20px;
+                /* line-height: .28rem; */
+                text-align: center;
+                color: #fff;
+                font-weight: 400;
+                background-color: #e1e1e1;
+                position: relative;
+                z-index: 1;
+        }
+
+        .step2Process dl i:after 
+        {
+                content: "\e6e7";
+                font-family: "basefont";
+                font-size: 0rem;
+                font-style: normal;
+        }
+        .step2Process dd 
+        {
+                font-size: 18px;
+                font-weight: 500;
+                color: #fff;
+        }
+        .step2Process dl:nth-child(1):after 
+        {
+                width: 89px;
+        }
+        .step2Process dl:nth-child(5):after 
+        {
+                width: 0%;
+        }
+        .step2Process dl::after 
+        {
+                content: "";
+                width: 126%;
+                height: 3px;
+                position: absolute;
+                top: 11px;
+                z-index: 0;
+                background-color: #eee;
+        }
+
+        .benefits_custom_embroidery
+        {
+                margin: 0px 0;
+                padding: 20px 0;
+                margin-bottom: 120px;
+                background: #ff5722;
+        }
+
+        .benefits_custom_embroidery .emb_mh
+        {
+                overflow: hidden;
+                text-align: center;
+                font: normal bold 40px / 40px "Open Sans Condensed", Helvetica, Arial, Verdana, sans-serif;
+                font-size: 48px;
+                font-weight: bold;
+                color: #1f365c;
+        }
+
+        .benefits_custom_embroidery .emb_mp
+        {
+                color:#fff;
+        }
+
+        .emb_con_sp
+        {
+                padding-top: 50px;
+        }
+        .emb_portion
+        {
+                display: grid;
+                grid-template-columns: repeat(1, 1fr);
+                padding: 0 80px;
+                margin-bottom: 90px;
+        }
+        .emb_con_sp .emb_portion h4 
+        {
+                font-size: 18px;
+        }
+        .emb_con_sp .emb_portion ul p
+        {
+                font-size: 15px;
+        }
+
+        .j_right_he
+        {
+                text-align: center;
+                font: normal bold 34px / 40px "Open Sans Condensed", Helvetica, Arial, Verdana, sans-serif;
+                font-size: 48px;
+                line-height: 46px;
+                font-weight: bold;
+                color: #1f365c;
+        }
+
+        .j_right_p p
+        {
+                font: normal 17px / 19px "Open Sans Condensed", Helvetica, Arial, Verdana, sans-serif;
+                text-align: center;
+        }
+
+        .j_right_form .form-control 
+        {
+                border: none;
+        }
+        .j_right_form .form-row 
+        {
+             margin-right: 21px;
+             margin-left: 14px;
+        }
+        .j_right_form .form-group
+        {
+                background: #fff;
+                box-shadow: 1px 1px 2px 0 rgb(0 0 0 / 20%);
+                height: 80px;
+        }
+        .j_right_form .form-group label
+        {
+                font-family: 'oswald';
+                color: rgb(5, 5, 5);
+                line-height: 1;
+                font-size: 15px;
+        }
+
+        .j_right_form .form-group input , .j_right_form .form-group select
+        {
+                font-family: 'oswald';
+                color: gray;
+                line-height: 1;
+        }
+
+        .j_right_form .form-row>.col, .form-row>[class*=col-] 
+        {
+                padding-right: 5px;
+                padding-left: 5px;
+                margin-left: 15px;
+        }
+        .j_right_form .h_ta
+        {
+                height: 150px;
+        }
+        .j_right_form textarea
+        {
+                width: 100%;
+                border-style: none;
+        }
+
+        .dp-head
+        {
+                text-align: center;
+                font: normal bold 34px / 40px "Open Sans Condensed", Helvetica, Arial, Verdana, sans-serif;
+                font-size: 48px;
+                line-height: 46px;
+                font-weight: bold;
+                color: #fff;
+                padding-bottom: 40px;
+        }
+        .process-section 
+        {
+                background: #ff5722;
+                margin-top: 100px;
+        }
+
+        .process-section .card a
+        {
+                font: normal bold 35px / 35px "Open Sans Condensed", Helvetica, Arial, Verdana, sans-serif;
+                font-size: 28px;
+                color: #ff5722;
+                text-decoration: none;
+        }
+        .design-card-height
+        {
+                height: 450px;
+        }
+        
+        .gallery-section
+        {
+                background: #ff5722;
+                margin-top: 100px;
+        }
+        .top-quality-section .top-quality-head
+        {
+                text-align: center;
+                font: normal bold 34px / 40px "Open Sans Condensed", Helvetica, Arial, Verdana, sans-serif;
+                font-size: 48px;
+                line-height: 46px;
+                font-weight: bold;
+                color: #1f365c;
+        }
+        
+        .popular-backing-section
+        {
+                
+                margin-top: 100px;
+        }
+        .popular-backing-content
+        {
+                display: grid;
+                grid-template-columns: repeat(5,1fr);
+        }
+        
+        .popular-backing-content .pb-h
+        {
+                font: normal bold 35px / 35px "Open Sans Condensed", Helvetica, Arial, Verdana, sans-serif;
+                font-size: 21px;
+                color: #ff5722;
+                text-decoration: none;
+        }
+        .popular-backing-content p{
+                font-size: 16px;
+                color: #1f365c !important;
+                /* font: normal 18px / 19px "Open Sans Condensed", Helvetica, Arial, Verdana, sans-serif; */
+                font-family: 'oswald';
+        }
+
+        
+
+.common-question-section
+{
+        margin-top: 50px;
+        margin-bottom: 50px;
+        text-decoration: none;
+        list-style-type: none;
+}
+.common-head
+        {
+                text-align: center;
+                font: normal bold 34px / 40px "Open Sans Condensed", Helvetica, Arial, Verdana, sans-serif;
+                font-size: 48px;
+                line-height: 46px;
+                font-weight: bold;
+                color: #1f365c;
+        }
+.accordion_container {
+        width: 100%;
+      }
+      
+      .accordion_head {
+
+        cursor: pointer;
+        margin: 0 0 1px 0;
+        padding: 17px 11px;
+        font-weight: bold;
+        font: normal bold 20px / 20px "Open Sans Condensed", Helvetica, Arial, Verdana, sans-serif;
+        background: #fff;
+        color: black;
+        font-size: 20px;
+        border-top: 1px solid #e4e7ed;
+      }
+      .accordion_head:nth-child(10) 
+    {
+        border-bottom: 1px solid #e4e7ed;
+    }
+      
+      .accordion_body {
+        background: #fff;
+      }
+      
+      .accordion_body h5 {
+        font: normal 18px / 19px "Open Sans Condensed", Helvetica, Arial, Verdana, sans-serif;
+      }
+
+      .accordion_body p {
+        padding: 0 5px 18px 5px;
+        margin: 0px;
+        font: normal 16px / 19px "Open Sans", Helvetica, Arial, Verdana, sans-serif;
+        color: #1f365c;
+      }
+      .accordion_body ul {
+              list-style-type: none;
+      }
+      .accordion_body li {
+        font: normal 15px / 19px "Open Sans", Helvetica, Arial, Verdana, sans-serif;
+        color: #1f365c;
+      }
+      
+      .plusminus 
+      {
+        float: right;
+        }
+
+        .blog-section
+        {
+                background: #ff5722;
+                margin-top: 100px;
+        }
+
+        .blog-head
+        {
+                text-align: center;
+                font: normal bold 34px / 40px "Open Sans Condensed", Helvetica, Arial, Verdana, sans-serif;
+                font-size: 48px;
+                line-height: 46px;
+                font-weight: bold;
+                color: #fff;
+        }
+
+        .blog-content
+        {
+                margin-bottom: .3rem;
+                display: flex;
+                flex-direction: row;    
+                justify-content: space-between;
+                align-items: unset;
+        }
+
+        .blog-content .blog-items
+        {
+                
+                box-sizing: border-box;
+                margin-top: .2rem;
+                transition: transform .85s;
+                background-color: #eee;
+                margin-right: 30px;
+        }
+
+        .blog-content .blog-items:hover
+        {
+                transform: translateY(-10px);
+        }
+        .blog-items img {
+                max-width: 100%;
+            }
+        
+        .blog-items h3 {
+                padding: 1.0rem .2rem;
+                font: normal 22px / 22px "Open Sans Condensed", Helvetica, Arial, Verdana, sans-serif;
+                text-align: center;
+                color: #1f365c;
+            }
+            
+
+        @media (min-width: 768px)
+        {
+        .j_right_form .col-md-6 
+                {
+                        
+                        flex: 0 0 45%;
+                        
+                }
+        }
+
+
