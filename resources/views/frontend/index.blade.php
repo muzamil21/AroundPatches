@@ -21,9 +21,9 @@
         <link rel="stylesheet" href="./assets/css/aos.css">
         <link rel="stylesheet" href="./assets/css/style.css"> -->
 
-        <link rel="stylesheet" href="../assets/css/all.css">
-        <link rel="stylesheet" href="../assets/css/aos.css">
-        <link rel="stylesheet" href="../assets/css/style.css">
+        <link rel="stylesheet" href="../public/assets/css/all.css">
+        <link rel="stylesheet" href="../public/assets/css/aos.css">
+        <link rel="stylesheet" href="../public/assets/css/style.css">
 
     </head>
 
@@ -32,12 +32,12 @@
                 
                 <div class="col-lg-1"></div>
                 <div class="col-lg-3 col-md-5 col-sm-6">
-                    <div class="email decor2"><a href="#"><img src="../assets/icons/envelope.png" style="width: 29px;padding-right: 6px;"/>
+                    <div class="email decor2"><a href="#"><img src="../public/assets/icons/envelope.png" style="width: 29px;padding-right: 6px;"/>
                         Email: patches@gmail.com</a></div>
                 </div>
 
                 <div class="col-lg-3 col-md-5 col-sm-6">
-                    <div class="email decor2"><a href="#"><img src="../assets/icons/smartphone.png" style="width: 29px;padding-right: 6px;"/>
+                    <div class="email decor2"><a href="#"><img src="../public/assets/icons/smartphone.png" style="width: 29px;padding-right: 6px;"/>
                     </i>Phone: 866-847-2824</a></div>
                 </div>
                 <div class="col-lg-1"></div>
@@ -54,7 +54,7 @@
             <nav class="nav">
                 <div class="nav-menu-1 flex-row-1">
                     <div class="nav-brand-1">
-                        <a href="#" class=""><img src="../assets/image/logo.png" alt=""></a>
+                        <a href="#" class=""><img src="../public/assets/image/logo.png" alt=""></a>
                     </div>
                     <div class="toggle-collapse">
                         <div class="toggle-icons-1">
@@ -74,35 +74,35 @@
                                 
                                 <ul class="dropdown-content">
                                     
-                                    <li class="mt-3"><a href="#"><img src="../assets/icons/bikepatch1.png" style="width: 29px;padding-right: 6px;" alt="">
+                                    <li class="mt-3"><a href="#"><img src="../public/assets/icons/bikepatch1.png" style="width: 29px;padding-right: 6px;" alt="">
                                         Bike Patches</a></li>
                                     <div class="vl"></div>
                                     
-                                    <li class="mt-3 sp-dp-m"><a href="#"><img src="../assets/icons/bikepatch1.png" style="width: 29px;padding-right: 6px;" alt="">
+                                    <li class="mt-3 sp-dp-m"><a href="#"><img src="../public/assets/icons/bikepatch1.png" style="width: 29px;padding-right: 6px;" alt="">
                                         Patches No Minimum</a></li>
 
-                                    <li class="sp-dp"><a href="#"><img src="../assets/icons/bikepatch1.png" style="width: 29px;padding-right: 6px;" alt="">
+                                    <li class="sp-dp"><a href="#"><img src="../public/assets/icons/bikepatch1.png" style="width: 29px;padding-right: 6px;" alt="">
                                         Velcro Patches</a></li>
                                     
-                                    <li class="sp-dp sp-dp-m"><a href="emb-patches.html"><img src="../assets/icons/bikepatch1.png" style="width: 29px;padding-right: 6px;" alt="">
+                                    <li class="sp-dp sp-dp-m"><a href="emb-patches.html"><img src="../public/assets/icons/bikepatch1.png" style="width: 29px;padding-right: 6px;" alt="">
                                         Embroidery Patches</a></li>
 
-                                    <li class="sp-dp-2"><a href="#"><img src="../assets/icons/bikepatch1.png" style="width: 29px;padding-right: 6px;" alt="">
+                                    <li class="sp-dp-2"><a href="#"><img src="../public/assets/icons/bikepatch1.png" style="width: 29px;padding-right: 6px;" alt="">
                                         Military Patches</a></li>
                                     
-                                    <li class="sp-dp-2 sp-dp-m"><a href="#"><img src="../assets/icons/bikepatch1.png" style="width: 29px;padding-right: 6px;" alt="">
+                                    <li class="sp-dp-2 sp-dp-m"><a href="#"><img src="../public/assets/icons/bikepatch1.png" style="width: 29px;padding-right: 6px;" alt="">
                                         Motorcycle Patches</a></li>
 
-                                    <li class="sp-dp-3"><a href="#"><img src="../assets/icons/bikepatch1.png" style="width: 29px;padding-right: 6px;" alt="">
+                                    <li class="sp-dp-3"><a href="#"><img src="../public/assets/icons/bikepatch1.png" style="width: 29px;padding-right: 6px;" alt="">
                                         PVC Patches</a></li>
                                     
-                                    <li class="sp-dp-3 sp-dp-m"><a href="#"><img src="../assets/icons/bikepatch1.png" style="width: 29px;padding-right: 6px;" alt="">
+                                    <li class="sp-dp-3 sp-dp-m"><a href="#"><img src="../public/assets/icons/bikepatch1.png" style="width: 29px;padding-right: 6px;" alt="">
                                         Fire Patches</a></li>
 
-                                    <li class="sp-dp-3"><a href="#"><img src="../assets/icons/bikepatch1.png" style="width: 29px;padding-right: 6px;" alt="">
+                                    <li class="sp-dp-3"><a href="#"><img src="../public/assets/icons/bikepatch1.png" style="width: 29px;padding-right: 6px;" alt="">
                                         Iron On Patches</a></li>
                                     
-                                    <li class="sp-dp-3 sp-dp-m"><a href="#"><img src="../assets/icons/bikepatch1.png" style="width: 29px;padding-right: 6px;" alt="">
+                                    <li class="sp-dp-3 sp-dp-m"><a href="#"><img src="../public/assets/icons/bikepatch1.png" style="width: 29px;padding-right: 6px;" alt="">
                                         Law and Security Patches</a></li>
                                     
                                 </ul>
@@ -201,7 +201,7 @@
                         <div class="">
                             <div class="slide_img">
                                 <div class="img_pos">
-                                    <img src="../assets/image/slide1.jpg"  alt="">
+                                    <img src="../public/assets/image/slide1.jpg"  alt="">
                                 </div>  
                             </div>
                         </div>
@@ -238,7 +238,7 @@
                                 </div>
 
                                 <div class="card_img-st d-block">
-                                    <img src="../assets/image/Blog-post/post-1.jpg" style="height: 200px; width: 100%;" alt="" class="img-fluid d-block mx-auto mb-3">
+                                    <img src="../public/assets/image/Blog-post/post-1.jpg" style="height: 200px; width: 100%;" alt="" class="img-fluid d-block mx-auto mb-3">
                                 </div>
                                 <div class="card_third_st d-block">
                                     <div class="al_p">
@@ -264,7 +264,7 @@
                                     <h3> <a href="#" class="blog-he">Bikes Patches</a></h3>
                                 </div>
                                 <div class="card_img-st">
-                                    <img src="../assets/image/Blog-post/post-3.jpg" style="height: 200px; width: 100%;" alt="" class="img-fluid d-block mx-auto mb-3">
+                                    <img src="../public/assets/image/Blog-post/post-3.jpg" style="height: 200px; width: 100%;" alt="" class="img-fluid d-block mx-auto mb-3">
                                 </div>
                                 <div class="card_third_st">
                                     <div class="al_p">
@@ -292,7 +292,7 @@
                                     <h3> <a href="#" class="blog-he">Military</a></h3>
                                 </div>
                                 <div class="card_img-st">
-                                    <img src="../assets/image/Blog-post/post-2.jpg" style="height: 200px; width: 100%;"  alt="" class="img-fluid d-block mx-auto mb-3">
+                                    <img src="../public/assets/image/Blog-post/post-2.jpg" style="height: 200px; width: 100%;"  alt="" class="img-fluid d-block mx-auto mb-3">
                                 </div>
                                 <div class="card_third_st">
                                     <div class="al_p">
@@ -318,7 +318,7 @@
                                 </div>
 
                                 <div class="card_img-st d-block">
-                                    <img src="../assets/image/Blog-post/post-4.jpg" alt="" style="height: 200px; width: 100%;" class="img-fluid d-block mx-auto mb-3">
+                                    <img src="../public/assets/image/Blog-post/post-4.jpg" alt="" style="height: 200px; width: 100%;" class="img-fluid d-block mx-auto mb-3">
                                 </div>
                                 <div class="card_third_st">
                                     <div class="al_p">
@@ -344,7 +344,7 @@
                                     <h3> <a href="#" class="blog-he">Iron Heat</a></h3>
                                 </div>
                                 <div class="card_img-st d-block">
-                                    <img src="../assets/image/Blog-post/post-5.jpg" alt="" style="height: 200px; width: 100%;" class="img-fluid d-block mx-auto mb-3">
+                                    <img src="../public/assets/image/Blog-post/post-5.jpg" alt="" style="height: 200px; width: 100%;" class="img-fluid d-block mx-auto mb-3">
                                 </div>
                                 <div class="card_third_st">
                                     <div class="al_p">
@@ -370,7 +370,7 @@
                                     <h3> <a href="#" class="blog-he">Security Law</a></h3>
                                 </div>
                                 <div class="card_img-st d-block">
-                                    <img src="../assets/image/Blog-post/post-6.jpg" alt="" style="height: 200px; width: 100%;" class="img-fluid d-block mx-auto mb-3">
+                                    <img src="../public/assets/image/Blog-post/post-6.jpg" alt="" style="height: 200px; width: 100%;" class="img-fluid d-block mx-auto mb-3">
                                 </div>
                                 <div class="card_third_st">
                                     <div class="al_p">
@@ -503,14 +503,14 @@
             <div class="instagram" data-aos="fade-left" data-aos-delay="200">
                 <h2>Instagram</h2>
                 <div class="flex-row">
-                    <img src="../assets/image/instagram/thumb-card3.png" alt="insta1">
-                    <img src="../assets/image/instagram/thumb-card4.png" alt="insta2">
-                    <img src="../assets/image/instagram/thumb-card5.png" alt="insta3">
+                    <img src="../public/assets/image/instagram/thumb-card3.png" alt="insta1">
+                    <img src="../public/assets/image/instagram/thumb-card4.png" alt="insta2">
+                    <img src="../public/assets/image/instagram/thumb-card5.png" alt="insta3">
                 </div>
                 <div class="flex-row">
-                    <img src="../assets/image/instagram/thumb-card6.png" alt="insta4">
-                    <img src="../assets/image/instagram/thumb-card7.png" alt="insta5">
-                    <img src="../assets/image/instagram/thumb-card8.png" alt="insta6">
+                    <img src="../public/assets/image/instagram/thumb-card6.png" alt="insta4">
+                    <img src="../public/assets/image/instagram/thumb-card7.png" alt="insta5">
+                    <img src="../public/assets/image/instagram/thumb-card8.png" alt="insta6">
                 </div>
             </div>
             <div class="follow" data-aos="fade-left" data-aos-delay="200">
@@ -537,11 +537,11 @@
     </footer>
 
     <!-- Jquery Library file -->
-    <script src="../assets/js/Jquery3.4.1.min.js"></script>
+    <script src="../public/assets/js/Jquery3.4.1.min.js"></script>
     <!-- ------------ AOS js Library  ------------------------- -->
-    <script src="../assets/js/aos.js"></script>
+    <script src="../public/assets/js/aos.js"></script>
 
     <!-- Custom Javascript file -->
-    <script src="../assets/js/main.js"></script>
+    <script src="../public/assets/js/main.js"></script>
     </body>
 </html>

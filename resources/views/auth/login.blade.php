@@ -1,6 +1,6 @@
 @extends('layouts.app')
 <head>
-<link rel="stylesheet" href="./assets/css/style.css">
+<link rel="stylesheet" href="./public/assets/css/style.css">
 </head>
 @section('content')
 
@@ -19,8 +19,8 @@
 
         <div class="social-icons-logf">
 
-                    <a href="{{route('login.facebook')}}"> <img src="assets/login-reg-img/loginfb.png" alt=""></a>
-                    <a href="{{route('login.google')}}"> <img src="assets/login-reg-img/logingp.png" alt=""></a>
+                    <a href="{{route('login.facebook')}}"> <img src="public/assets/login-reg-img/loginfb.png" alt=""></a>
+                    <a href="{{route('login.google')}}"> <img src="public/assets/login-reg-img/logingp.png" alt=""></a>
 
         </div>
 

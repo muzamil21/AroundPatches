@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./public/assets/css/style.css">
 </head>
 <body>
     
@@ -21,12 +21,13 @@
 
                 <div class="social-icons-regf">
 
-                <a href="{{route('login.facebook')}}"> <img src="assets/login-reg-img/loginfb.png" alt=""></a>
-                    <a href="{{route('login.google')}}"> <img src="assets/login-reg-img/logingp.png" alt=""></a>
+                <a href="{{route('login.facebook')}}"> <img src="public/assets/login-reg-img/loginfb.png" alt=""></a>
+                    <a href="{{route('login.google')}}"> <img src="public/assets/login-reg-img/logingp.png" alt=""></a>
 
                 </div>
 
                 <form method="POST" action="{{ route('register') }}" class="input-group-regf">
+                    
                 @csrf
 
                     <input id="name" type="text" class="input-field-regf @error('name') is-invalid @enderror" name="name" value="{{ old('name') }}" autocomplete="name" autofocus placeholder="Name">
@@ -53,7 +54,7 @@
 
                                 <input id="password-confirm" type="password" class="input-field-regf" name="password_confirmation" required autocomplete="new-password" placeholder="Confirm Password">
 
-                    <div class="pt-4"></div>
+                    <div class="pt-5"></div>
                     <button type="submit" class="submit-btn-regf">Register</button>
 
                     <button type="submit" class="submit-btn-regf"><a href="{{ route('login.google') }}" >Continue With Google</a></button>
